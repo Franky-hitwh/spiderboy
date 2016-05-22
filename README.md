@@ -1,5 +1,7 @@
 这是一个爬虫,用的是scrapy框架。
+
 我使用python自动化测试工具selenium来构造url库
+
 然后在scrapy的主体中获取这个url库
 
 它解决了爬虫几个头疼的问题：
