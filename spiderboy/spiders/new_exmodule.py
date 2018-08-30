@@ -30,8 +30,8 @@ def login():
     print "Login..."
     driver.get("http://14wj.gk66.cn/login.aspx")
 
-    driver.find_element_by_xpath('//input[@id="gz_username"]').send_keys('789449870')
-    driver.find_element_by_xpath('//input[@id="gz_password"]').send_keys('019924')
+    driver.find_element_by_xpath('//input[@id="gz_username"]').send_keys('')
+    driver.find_element_by_xpath('//input[@id="gz_password"]').send_keys('')
 
     driver.get_screenshot_as_file('/home/hitnslab/Documents/spiderboy/spiderboy/spiders/img/getCode.png')
 
